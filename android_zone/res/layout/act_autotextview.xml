@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.example.testandroid.autotextview.VerticalScrollTextView
+        android:id="@+id/tv_scroll_text"
+        android:layout_width="500dip"
+        android:layout_height="300dip"      
+        android:text="@string/big_text"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+</LinearLayout>

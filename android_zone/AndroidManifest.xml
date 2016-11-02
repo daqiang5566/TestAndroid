@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.testandroid.StretchViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.pinnedSectionListView.PinnedSectionListActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.pulldown_scrollview.PulldownViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.blur.BlurActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circle.CircleProgressActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circle.MatrialProgressActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.CutomRadioActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circularfloatingactionmenu.samples.DemoActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circularfloatingactionmenu.samples.MenuInScrollViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circularfloatingactionmenu.samples.MenuWithCustomActionButtonActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circularfloatingactionmenu.samples.MenuWithCustomAnimationActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circularfloatingactionmenu.samples.MenuWithFABActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circularfloatingactionmenu.samples.SystemOverlayMenuActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.testevent.TestEventActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.pagingridview.example.CustomPagingGirdViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.pulltorefresh.ScrollViewGridViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.marquee.MarqueeActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.countdowview.CountdownActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.app.MainActivity6" >
+        </activity>
+        <activity android:name="com.example.testandroid.app.RecyclerViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.CustomViewGroup.ViewGroupActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.swiperefresh.SwipeRefreshActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.thread.ThreadActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.circle.CircleActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.videoview.VideoViewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.playAudio.AudioActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.LayerListActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.videoview.VedioPreviewActivity" >
+        </activity>
+        <activity android:name="com.example.testandroid.matirx.MatirxActivity" >
+        </activity>
+        <activity android:name=".customview.CustomActvity" >
+        </activity>
+        <activity android:name=".autotextview.AutoTextviewAct" >
+        </activity>
+        
+        <activity android:name=".gif.GifActivity" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testandroid.MainActivity" >
+
+    <item
+        android:id="@+id/action_fastscroll"
+        android:showAsAction="always"
+        android:title="@string/action_fastscroll"/>
+    <item
+        android:id="@+id/action_addpadding"
+        android:showAsAction="always"
+        android:title="@string/action_addpadding"/>
+</menu>

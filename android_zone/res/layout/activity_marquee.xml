@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+  <!--   <com.example.testandroid.widget.MarqueeTextView
+        android:id="@+id/textView1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:text="我有一头小毛驴，平时不怎么骑，咿呀咿呀呦" /> -->
+    
+    <com.example.testandroid.marquee.ScrollTextView
+        android:id="@+id/scrollTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dip"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:text="我有一头小毛驴，平时不怎么骑，咿呀咿呀呦 \n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦 \n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦\n
+       				  我有一头小毛驴，平时不怎么骑，咿呀咿呀呦" />
+
+</RelativeLayout>
